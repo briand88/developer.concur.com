@@ -118,7 +118,7 @@ Name | Type | Format | Description
 `FirstName`|`string` | | The user's first name. Maximum 32 characters.
 `LastName`|`string` | | The user's last name. Maximum 32 characters.
 `Mi`|`string` | | The user's middle initial. Maximum 1 character.
-`EmailAddress`|`string` | | The user's email address. Maximum 255 characters.
+`EmailAddress`|`string` | | Required for new users. The user's email address. Maximum 255 characters.
 `LedgerKey`|`string` | | Required for new users. The user's assigned account code ledger. Maximum 20 characters. Example: Default.
 `OrgUnit1 through OrgUnit6`|`string` | | The custom organizational unit fields on the Employee form. Varies depending on configuration. Use the Employee Form Field resource to get the list of configured fields. Maximum 48 characters for each field.
 `Custom1 through Custom21`|`string` | | The custom fields on the Employee form. Varies depending on configuration. Use the Employee Form Field resource to get the list of configured fields. Maximum 48 characters.
